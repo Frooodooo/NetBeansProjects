@@ -12,4 +12,5 @@ package data;
 public class Table {
     private Player player;
     private Dealer dealer;
+    
 }

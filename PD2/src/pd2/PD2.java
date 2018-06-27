@@ -3,21 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package blackjack;
+package pd2;
 
 /**
  *
  * @author Frooodooo
  */
-public class BlackJack {
+public class PD2 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        
-        
+        //uzdevums26.uzdevums();
+        uzdevums26.uzdevums28();
     }
     
 }
