@@ -52,7 +52,7 @@ public class uzdevums26 {
 
     public static int[] masivaievade() {
         Scanner ievade = new Scanner(System.in);
-        System.out.print("Ievadi skaitli = ");
+        System.out.print("Ievadi masiva skaitu = ");
         int sk = ievade.nextInt();
         int[] masivs = new int[sk];
         for (int i = 0; i < sk; i++) {

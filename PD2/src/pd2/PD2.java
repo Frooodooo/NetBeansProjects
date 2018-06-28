@@ -16,7 +16,7 @@ public class PD2 {
      */
     public static void main(String[] args) {
         //uzdevums26.uzdevums();
-        uzdevums26.uzdevums28();
+        uzdevums26.kopigasvertibas();
     }
     
 }
