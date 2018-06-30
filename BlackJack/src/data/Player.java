@@ -42,12 +42,17 @@ public class Player {
             while (aceCount > 0 && totalPoints > 21) {
                 totalPoints -= 10;
                 aceCount--;
-                return totalPoints;
+               
             }
+             
         }
-
+return totalPoints;
         //4.2 ja punktu skaits parsniedz 21 un ir kads duzis, tad punktu skaitu
         //samazina par 10 un atgriezas uz ounkta 4.2
-        return 0;
+       
+    }
+    public ArrayList<Card> getCards()
+    {
+    return this.cards;
     }
 }

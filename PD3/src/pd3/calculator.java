@@ -242,9 +242,7 @@ public class calculator extends javax.swing.JFrame {
     private void ButtonequelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonequelActionPerformed
        while(true)
        {
-       addString = numDisplay.getText();
-            addDouble = Double.parseDouble(addString);
-            numDisplay.setText("");
+      
 
            
            String finalString = this.jTextField1.getText();

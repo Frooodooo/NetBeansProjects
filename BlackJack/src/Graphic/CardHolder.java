@@ -3,21 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package blackjack;
+package Graphic;
+
+import javax.swing.JPanel;
 
 /**
  *
  * @author Frooodooo
  */
-public class BlackJack {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        
-        
-        
+public class CardHolder extends JPanel {
+    public void addCard(CardImage card)
+    {
+    this.add(card);
     }
-    
+    public void clear()
+    {
+    this.removeAll();
+    }
 }
