@@ -31,7 +31,7 @@ try{
         
         Statement stmt = con.createStatement();
         
-        stmt.executeUpdate("INSERT INTO students (uzvards) VALUES ()")
+        stmt.executeUpdate("INSERT INTO students (uzvards) VALUES (paegle)");
         
         ResultSet rs = stmt.executeQuery("SELECT * FROM students");
         
